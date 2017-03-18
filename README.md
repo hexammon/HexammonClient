@@ -1,5 +1,3 @@
-# Hexammon Client
-
 ![hexammon logo](https://s9.postimg.org/5tqr75k0v/hexammon.png)
 
 ## Development server
