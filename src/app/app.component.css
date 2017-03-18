@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.hex {
+    color: #10371d;
+    font-size: 135px;
+    margin: -10px;
+}
+
+.hex:hover {
+    color: #2c9b5f;
+}
+
+.hex:before {
+    content: '⬢';
+}
+
+.hex-row {
+    text-align: center;
+    margin-bottom: -140px;
+    cursor: none;
+}
+
+.hex-row.header {
+    margin-bottom: -70px;
+}
+
+.hex-semirow {
+    top: -70px;
+    position: relative;
+}
