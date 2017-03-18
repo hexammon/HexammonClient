@@ -1,11 +1,17 @@
 h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #10371d;
+}
+
+.hex-map {
     text-align: center;
+    width: 400px;
 }
 
 .hex {
     color: #10371d;
-    font-size: 135px;
-    margin: -10px;
+    font-size: 60px;
+    margin: -5px;
 }
 
 .hex:hover {
@@ -17,8 +23,7 @@ h1 {
 }
 
 .hex-row {
-    text-align: center;
-    margin-bottom: -140px;
+    margin-bottom: -62px;
     cursor: none;
 }
 
@@ -27,6 +32,6 @@ h1 {
 }
 
 .hex-semirow {
-    top: -70px;
+    top: -31px;
     position: relative;
 }
