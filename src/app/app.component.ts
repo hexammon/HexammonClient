@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    title = 'Hexammon';
+    title: string = 'Hexammon';
+    rowsNumber: number = 6;
+
+    getNumberOfRowsPairAsArray(): Array<number> {
+        return new Array(this.rowsNumber);
+    }
 }
