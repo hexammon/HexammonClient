@@ -10,6 +10,14 @@ export class AppComponent {
     rowsNumber: number = 6;
 
     getNumberOfRowsPairAsArray(): Array<number> {
-        return new Array(this.rowsNumber);
+        return this.numberToArray(this.rowsNumber);
+    }
+
+    numberToArray(arrayLength: number): Array<number> {
+        return new Array(arrayLength);
+    }
+
+    debug(string) {
+        console.log(string)
     }
 }

@@ -11,7 +11,8 @@ h1 {
 .hex {
     color: #10371d;
     font-size: 60px;
-    margin: -5px;
+    display: inline-block;
+    width: 46px;
 }
 
 .hex:hover {
@@ -23,14 +24,5 @@ h1 {
 }
 
 .hex-row {
-    margin-bottom: -62px;
-}
-
-.hex-row.header {
-    margin-bottom: -70px;
-}
-
-.hex-semirow {
-    top: -31px;
-    position: relative;
+    height: 40px;
 }
