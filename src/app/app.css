@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #10371d;
+}
+
+header,
+nav {
+    text-align: center;
+}

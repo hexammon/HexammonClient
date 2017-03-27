@@ -1,7 +1,4 @@
 <div class="hex-map">
-    <p>C'mon, play some</p>
-    <h1>{{ title }}</h1>
-
     <!-- Upper part of the grid -->
     <div *ngFor="let rowPair of getNumberOfRowsPairAsArray();let i = index; let isOdd = odd" class="hex-row">
         <span *ngFor="let row of numberToArray(i + 1)" class="hex"></span>
