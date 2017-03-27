@@ -1,4 +1,4 @@
-<div class="center">
+<div class="center rooms">
     <p>Available game rooms:</p>
-    <p *ngFor="let room of rooms;let index = index">{{ index + 1 + '. ' + room }}</p>
+    <a *ngFor="let room of rooms" routerLink="/game">{{ room }}</a>
 </div>

@@ -4,7 +4,6 @@ import { GridComponent } from "./components/grid/grid.component";
 import { ThresholdComponent } from "./components/thrashold/threshold.component";
 
 const routes: Routes = [
-    { path: '', redirectTo: '/threshold', pathMatch: 'full' },
     { path: 'threshold', component: ThresholdComponent },
     { path: 'game', component: GridComponent },
 ];
