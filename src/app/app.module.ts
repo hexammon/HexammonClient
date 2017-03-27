@@ -6,17 +6,19 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { RoutingModule } from "./routing.module";
 import { GridComponent } from "./components/grid/grid.component";
+import { ThresholdComponent } from "./components/thrashold/threshold.component";
 
 @NgModule({
     declarations: [
         AppComponent,
-        GridComponent
+        GridComponent,
+        ThresholdComponent
     ],
     imports: [
         BrowserModule,
         FormsModule,
         HttpModule,
-        RoutingModule
+        RoutingModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

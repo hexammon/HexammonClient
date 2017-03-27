@@ -6,4 +6,23 @@ h1 {
 header,
 nav {
     text-align: center;
+    margin: 20px;
+}
+
+nav a {
+    color: rgba(16, 55, 29, 1);
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: rgba(16, 55, 29, 0.2);
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(16, 55, 29, 0.3);
 }
