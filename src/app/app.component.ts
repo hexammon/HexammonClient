@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
     title: string = 'Hexammon';
-    rowsNumber: number = 6;
+    rowsNumber: number = 14;
 
     getNumberOfRowsPairAsArray(): Array<number> {
         return this.numberToArray(this.rowsNumber);
