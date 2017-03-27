@@ -3,9 +3,10 @@ h1 {
     color: #10371d;
 }
 
+header,
+nav,
 .hex-map {
     text-align: center;
-    width: 700px;
 }
 
 .hex {
