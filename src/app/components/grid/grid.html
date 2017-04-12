@@ -1,11 +1,11 @@
 <div class="hex-map">
     <!-- Upper part of the grid -->
-    <div *ngFor="let rowPair of getNumberOfRowsPairAsArray();let i = index; let isOdd = odd" class="hex-row">
+    <div *ngFor="let rowPair of getNumberOfRowsPairAsArray();let i = index" class="hex-row">
         <span *ngFor="let row of numberToArray(i + 1)" class="hex"></span>
     </div>
 
     <!-- Lower part of the grid -->
-    <div *ngFor="let rowPair of getNumberOfRowsPairAsArray();let i = index; let isOdd = odd" class="hex-row">
+    <div *ngFor="let rowPair of getNumberOfRowsPairAsArray();let i = index" class="hex-row">
         <span *ngFor="let row of numberToArray(rowsNumber - i - 1)" class="hex"></span>
     </div>
 </div>
